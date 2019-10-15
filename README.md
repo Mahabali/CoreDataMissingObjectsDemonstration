@@ -25,5 +25,11 @@ or
 
 ## Projects in this repo
 There are 2 projects in this repo to demonstrate the above solution
-1. OneToMany-NotWorking 
-1. OneToMany-Working
+1. OneToMany-NotWorking  - to demonstrate why its not working
+1. OneToMany-Working - to demonstrate how to make it working
+
+### Citation
+Please provide citation to this repo in stackoverflow or wherever required. 
+
+### If it helped you
+ :beers: Write me a quick and simple recommendation for me in [linkedin](https://in.linkedin.com/in/dhilipr)
