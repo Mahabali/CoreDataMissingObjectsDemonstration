@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14903" systemVersion="18G95" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Car" representedClassName="Car" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Owner" representedClassName="Owner" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="car" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Car"/>
+    </entity>
+    <configuration name="Configuration">
+        <memberEntity name="Car"/>
+    </configuration>
+    <elements>
+        <element name="Car" positionX="-270.2109375" positionY="-14.8828125" width="128" height="58"/>
+        <element name="Owner" positionX="-476.015625" positionY="-21.7265625" width="128" height="73"/>
+    </elements>
+</model>
