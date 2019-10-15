@@ -18,7 +18,9 @@ Most of the cases have similar pattern. Check if it suits you
 ## Solution
 There are 2 solutions.
 - B should have an inverse relationship to A. ( Recommended if its possible.)
-or
+
+(or)
+
 - Ensure that A object is first saved to store, as soon as its created.
 - Now fetch A's object and map it to existing B objects and save it to store.
 - When you fetch/refresh A's object, you will be able to access B objects despite not having an inverse relationship
